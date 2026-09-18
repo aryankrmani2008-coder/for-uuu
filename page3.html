@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+
+    .thank-box {
+      background: white;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+      max-width: 700px;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #e75480;
+      animation: glow 2s infinite alternate;
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff99aa; }
+      to { text-shadow: 0 0 20px #ff3366; }
+    }
+
+    .nav-arrows {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 25px;
+    }
+
+    .arrow {
+      font-size: 40px;
+      color: #e75480;
+      text-decoration: none;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .arrow:hover {
+      transform: scale(1.2);
+      color: #ff3366;
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-box">
+    <h1>Thank You, Payal ❤️</h1>
+    <p>
+      Dil se shukriya ki tumne mera message pura padha.  
+      Ye website maine sirf tumhare liye banayi hai, aur tumhari smile hi meri sabse badi reward hai.  
+      u r that part of my life jo unnantural tha mere liye.  
+      <br><br>
+      Thank you for being YOU ❤️
+    </p>
+
+    <!-- Navigation arrows -->
+    <div class="nav-arrows">
+      <a href="page2.html" class="arrow">⬅</a>
+      <a href="index.html" class="arrow">🔄</a>
+    </div>
+  </div>
+</body>
+</html>
